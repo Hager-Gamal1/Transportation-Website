@@ -1,0 +1,157 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ body{
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+.navigation{
+    background-color:rgb(0, 0, 0);
+    padding: 10px  20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navber1,.navber2{
+    display: flex;
+    align-items: center;
+    
+}
+.navigation a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+.navigation .logo{
+    font-weight: bold;
+    font-size: 28px;
+   
+}
+
+.navigation a:hover{
+    background-color: rgb(100, 115, 133);
+    border-radius: 4px;
+}
+
+.navber2 .signup-btn{
+  background-color: aliceblue;
+  color: black;
+  border-radius: 20px;
+  padding: 8px 16px;
+  border: none;
+}
+
+.navber2 .signup-btn:hover{
+    background-color: rgb(100, 115, 133);
+}
+
+.icon img{
+    width: 35px;
+
+}
+
+.container {
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    margin-left: 120px;
+    background-color: #000;
+}
+.text-content {
+    font-size: 40px;
+    color: #A9A9A9;
+}
+
+
+
+
+.buttens{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+
+}
+.buttons:hover{
+    border-color: #007bff;
+    color: #007bff;
+}
+.butten-R{ 
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid#000;
+    background-color: #f0f0f0;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+
+.butten-R:hover{
+    background-color: rgb(100, 115, 133);
+}
+h2{
+    text-align: justify;
+}
+
+
+.butten-D{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid#000;
+    background-color: #f0f0f0;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.butten-D:hover{
+    background-color: rgb(100, 115, 133);
+}
+.image-content img {
+    max-width: 40%;
+    width : 40%;
+    background-attachment: 60% 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    float:right;
+}
+
+  @media (max-width: 768px){
+    .navigation{
+        flex-direction: column;
+    }
+    .container{
+       text-align: center;
+    }
+    .buttons{
+        margin-top: 10px;
+    }
+    .image-content{
+        text-align:center;
+    }
+
+  }
